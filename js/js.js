@@ -9,8 +9,6 @@ const googleLink = document.querySelector('a[href="https://google.com"]');
 const lastScript = document.querySelector('script:last-of-type');
 const secondToLastP = document.querySelector('p:nth-last-of-type(2)');
 const spanInNextParagraph = document.querySelector('p + h2 + p span');
-
-// Додамо стилі до знайдених елементів
 htmlElement.style.backgroundColor = 'lightblue';
 bodyElement.style.backgroundColor = 'lightgreen';
 ulElement.style.backgroundColor = 'lightyellow';
@@ -24,8 +22,6 @@ if (googleLink) {
 }
 lastScript.style.border = '2px solid red';
 secondToLastP.style.fontWeight = 'bold';
-
-// Виведемо знайдені елементи у консоль
 console.log('HTML element:', htmlElement);
 console.log('Body element:', bodyElement);
 console.log('Menu element:', ulElement);
